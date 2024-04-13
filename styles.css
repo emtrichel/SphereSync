@@ -1,0 +1,59 @@
+body {
+    background-color: blueviolet;
+    font-family: sans-serif;
+    margin: 25px;
+}
+
+.main-heading {
+    text-align: center;
+    font-weight: 900;
+}
+
+.homepage-img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar ul {
+    display: flex; /* Changed from inline-flex to flex */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0; /* Added to remove default padding */
+}
+
+.nav-bar ul li {
+    padding: 4px;
+}
+
+.nav-bar ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: auto;
+}
+
+.page-heading {
+    text-align: center;
+}
+
+hr {
+    border-color: black;
+    color: black;
+}
